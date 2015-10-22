@@ -8,14 +8,14 @@ https://registry.hub.docker.com/u/mcandre/docker-chefdk/
 
 ```
 $ make
-docker run --rm mcandre/docker-chefdk:0.5.1 knife --version
+docker run --rm mcandre/docker-chefdk:0.5.0 knife --version
 Chef: 12.3.0
-docker run --rm mcandre/docker-chefdk:0.5.1 chef --version
+docker run --rm mcandre/docker-chefdk:0.5.0 chef --version
 Chef Development Kit Version: 0.5.1
 chef-client version: 12.3.0
 berks version: 3.2.3
 kitchen version: 1.4.0
-docker run --rm mcandre/docker-chefdk:0.5.1 git --version
+docker run --rm mcandre/docker-chefdk:0.5.0 git --version
 git version 1.9.1
 ```
 
