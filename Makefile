@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-chefdk:latest
+IMAGE=mcandre/docker-chefdk:0.9.0
 
 all: run
 
