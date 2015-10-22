@@ -1,11 +1,11 @@
-IMAGE=mcandre/docker-chefdk:0.6.2
+IMAGE=mcandre/docker-chefdk:0.6.0
 
 all: run
 
-chefdk_0.6.2-1_amd64.deb:
-	wget https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chefdk_0.6.2-1_amd64.deb
+chefdk_0.6.0-1_amd64.deb:
+	wget https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chefdk_0.6.0-1_amd64.deb
 
-build: Dockerfile chefdk_0.6.2-1_amd64.deb
+build: Dockerfile chefdk_0.6.0-1_amd64.deb
 	docker build -t $(IMAGE) .
 
 run: clean-containers build
